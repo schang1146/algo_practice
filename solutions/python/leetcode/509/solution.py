@@ -14,7 +14,7 @@ class Solution:
 
 if __name__ == "__main__":
     tic = perf_counter()
-    solution = Solution()
+    solution = Solution().fib(2)
     toc = perf_counter()
-    print(f"Solution: {solution.fib(2)}")
-    print(f"Time elapsed: {toc - tic} sec")
+    print(f"Solution: {solution}")
+    print(f"Time elapsed: {toc - tic} sec(s)")
