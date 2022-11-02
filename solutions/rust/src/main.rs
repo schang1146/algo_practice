@@ -3,7 +3,7 @@ mod load;
 
 // use std::io;
 use std::time::{SystemTime};
-// use leetcode::s509_fibonacci_number::Solution;
+use leetcode::s509_fibonacci_number::Solution;
 use load::load_problem;
 
 fn main() {
