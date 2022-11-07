@@ -1,18 +1,20 @@
 mod leetcode;
 mod load;
 
+use std::env;
 // use std::io;
 use std::time::{SystemTime};
 use leetcode::s509_fibonacci_number::Solution;
 use load::load_problem;
 
 fn main() {
+    let args: Vec<String> = env::args().collect();
     // let mut user_input = String::new();
     // println!("Enter LeetCode problem #:");
     // io::stdin()
     //     .read_line(&mut user_input)
     //     .expect("Error: Unable to read user input");
-    load_problem();
+    load_problem(&args[1]);
     let start = SystemTime::now();
     let solution = Solution::fib(2);
     let end = SystemTime::now();
