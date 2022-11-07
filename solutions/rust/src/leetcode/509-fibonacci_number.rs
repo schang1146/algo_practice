@@ -24,7 +24,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn small_fib() {
+    fn test_small_fib() {
         assert_eq!(0, Solution::fib(0));
         assert_eq!(1, Solution::fib(1));
         assert_eq!(1, Solution::fib(2));
@@ -37,7 +37,7 @@ mod tests {
     }
 
     #[test]
-    fn big_fib() {
+    fn test_big_fib() {
         assert_eq!(39088169, Solution::fib(38));
         assert_eq!(63245986, Solution::fib(39));
         assert_eq!(102334155, Solution::fib(40));
@@ -46,6 +46,6 @@ mod tests {
         assert_eq!(433494437, Solution::fib(43));
         assert_eq!(701408733, Solution::fib(44));
         assert_eq!(1134903170, Solution::fib(45));
-        assert_eq!(1836311903   , Solution::fib(46));
+        assert_eq!(1836311903, Solution::fib(46));
     }
 }
