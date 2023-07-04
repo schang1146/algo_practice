@@ -10,7 +10,6 @@ class Solution:
                     break
 
             if to_add:
-                print(f"adding {num}")
                 running_sum += num
 
         return running_sum
