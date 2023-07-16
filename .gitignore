@@ -1,3 +1,8 @@
+# Python
+
+__pycache__/
+.pytest_cache/
+
 # Rust
 
 **/target/
