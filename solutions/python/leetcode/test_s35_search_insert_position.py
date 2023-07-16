@@ -1,7 +1,7 @@
 from .s35_search_insert_position import Solution
 
 
-class TestTwoSum:
+class TestSearchInsert:
     def test_example_1(self):
         solution = Solution().searchInsert([1, 3, 5, 6], 5)
         assert solution == 2

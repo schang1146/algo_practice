@@ -1,7 +1,7 @@
 from .s28_find_the_index_of_the_first_occurrence_in_a_string import Solution
 
 
-class TestFindTheIndexOfTheFirstOccurrenceInAString:
+class TestStrStr:
     def test_example_1(self):
         solution = Solution().strStr("sadbutsad", "sad")
         assert solution == 0
